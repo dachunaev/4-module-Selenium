@@ -4,6 +4,7 @@ from .pages.login_page import LoginPage
 
 link = "http://selenium1py.pythonanywhere.com"
 
+
 def go_to_login_page(browser):
     login_link = browser.find_element_by_css_selector(*MainPageLocators.LOGIN_LINK)
     login_link.click()
