@@ -56,7 +56,7 @@ class BasePage():
                                                                      " probably unauthorised user"
 
     def should_be_login_link(self):
-        assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link is not presented"
+        assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link_main_page is not presented"
 
     def solve_quiz_and_get_code(self):
         alert = self.browser.switch_to.alert
